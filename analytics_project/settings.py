@@ -71,10 +71,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'analytics_project.wsgi.application'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.smtp2go.com'
-EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'test@rixosys.com'
-EMAIL_HOST_PASSWORD = 'test@test'
+EMAIL_HOST = ''
+EMAIL_PORT = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
